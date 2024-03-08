@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #616C6F;
+}
+h1{
+    color:whitesmoke;
+    background-color: #0A79DF;
+    text-align: center;
+    font-size: 4rem;
+}
+.btn-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.btn{
+    padding: 10px 20px;
+    margin:5px 15px;
+    border:none;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #2ecc72;
+    color: whitesmoke;
+    font-size: 3em;
+}
+
+.btn:hover{
+    background-color: #3C40C6;
+    cursor: pointer;
+}
